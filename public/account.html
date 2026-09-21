@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0b0c"><title>My Account · Medicinal Lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/account.css">
+</head>
+<body>
+  <header><a href="/" class="brand"><span>MEDICINAL</span><small>LIFESTYLE</small></a><nav><a href="/#shop">Shop</a><a href="/signout-with-chatgpt?return_to=%2F" target="_top">Sign out</a></nav></header>
+  <main>
+    <section class="account-head"><p class="eyebrow">CUSTOMER ACCOUNT</p><h1>MY ORDERS</h1><p id="welcome">Loading your account…</p></section>
+    <section class="summary" aria-label="Order summary"><div><span>All orders</span><strong id="allCount">—</strong></div><div><span>In progress</span><strong id="activeCount">—</strong></div><div><span>Delivered</span><strong id="deliveredCount">—</strong></div></section>
+    <div id="notice" role="status"></div>
+    <section id="orders" class="orders" aria-live="polite"></section>
+    <section id="empty" class="empty" hidden><p class="eyebrow">NO ORDERS YET</p><h2>YOUR NEXT PIECE<br>STARTS HERE.</h2><p>After checkout, your order and its latest status will appear on this page.</p><a href="/#shop">SHOP THE DROP →</a></section>
+  </main>
+  <script src="/account.js"></script>
+</body></html>

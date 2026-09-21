@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="description" content="Shop the latest Medicinal Lifestyle streetwear drops, hoodies and tees." />
+  <title>Medicinal Lifestyle — Official Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .account-link{display:inline-flex!important;align-items:center;justify-content:center}
+    .product-meta .rating-summary{margin-top:8px;color:#111;font-size:.66rem;font-weight:700;letter-spacing:.05em}
+    .reviews-area{border-top:1px solid var(--line);margin-top:38px;padding-top:32px}.reviews-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.reviews-head .eyebrow{margin-bottom:10px}.reviews-head h3{font-family:'Archivo Black';font-size:1.35rem;margin:0}.reviews-head>strong{font-family:'Archivo Black';font-size:1.15rem}.review-list{margin-top:22px}.review{padding:18px 0;border-bottom:1px solid var(--line)}.review>div{display:flex;justify-content:space-between;gap:12px;font-size:.78rem}.review>div span{letter-spacing:.06em}.review h4{margin:12px 0 4px;font-size:.86rem}.review p{margin:7px 0;color:#555;font-size:.82rem;line-height:1.55}.review small{color:#888;font-size:.67rem}.review-empty{color:#666;font-size:.8rem;line-height:1.5}.review-form{background:#f1f1ee;margin-top:24px;padding:22px}.review-form h4{margin:0 0 18px;font-size:.78rem;letter-spacing:.08em}.review-form label{display:block;font-size:.68rem;font-weight:700;letter-spacing:.05em;margin-bottom:12px}.review-form select,.review-form input,.review-form textarea{width:100%;border:1px solid #bbb;background:#fff;padding:12px;margin-top:7px;font:inherit;font-size:.82rem}.review-submit{width:100%;background:#111;color:#fff;border-color:#111}.review-note{font-size:.68rem;color:#666;line-height:1.45;margin:12px 0 0}.checkout-account-note{font-size:.82rem;color:#666;line-height:1.5;margin:-12px 0 25px}.success-actions{display:grid;gap:9px}.success-actions .primary,.success-actions .secondary{width:100%}
+    @media(max-width:560px){.account-link{padding:7px}.review-form{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="announcement" hidden></div>
+  <header class="nav-wrap">
+    <a class="brand" href="#home" aria-label="Medicinal Lifestyle home"><span>MEDICINAL</span><small>LIFESTYLE</small></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">SHOP</a><a href="#dynamicSections">NEW DROP</a><a href="#story">OUR STORY</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn search-toggle" aria-label="Search products">⌕</button>
+      <a class="icon-btn account-link" id="accountBtn" href="/account" aria-label="My account and orders" title="My account">♙</a>
+      <button class="cart-button" id="cartBtn" aria-label="Open cart">BAG <span id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" hidden></section><div id="afterHero"></div>
+    <section class="shop-section" id="shop">
+      <div class="section-head"><div><p class="eyebrow">LATEST RELEASES</p><h2>Shop</h2></div><div class="filters" role="group" aria-label="Product filters"><button class="active" data-filter="all">ALL</button><button data-filter="hoodies">HOODIES</button><button data-filter="tees">TEES</button></div></div>
+      <div class="product-grid" id="productGrid"><p>Loading store…</p></div>
+    </section>
+
+    <div id="afterShop"></div><div id="dynamicSections"></div><section class="story" id="story"></section>
+  </main>
+
+  <footer></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><h2>YOUR BAG <span id="drawerCount">(0)</span></h2><button class="close-btn" aria-label="Close bag">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><strong>YOUR BAG IS EMPTY</strong><p>Your next everyday piece is waiting.</p><a href="#shop" class="secondary close-cart">SHOP THE DROP</a></div><div class="cart-summary" id="cartSummary"><div><span>SUBTOTAL</span><strong id="subtotal">₱0</strong></div><p>Shipping is included in the checkout total.</p><button class="primary checkout-btn" id="checkoutBtn">CHECKOUT <span>→</span></button></div></aside>
+
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" aria-label="Close product">×</button><div class="modal-image"><img id="modalImg" alt="" /><div id="productGallery" class="product-gallery"></div></div><div class="modal-info"><p class="eyebrow" id="modalBadge"></p><h2 id="modalTitle"></h2><p class="price" id="modalPrice"></p><p class="description" id="modalDesc"></p><fieldset><legend>COLOR</legend><div id="colorOptions" class="option-row"></div></fieldset><fieldset><legend>SIZE <button class="size-guide" type="button">SIZE GUIDE</button></legend><div id="sizeOptions" class="option-row sizes"></div></fieldset><div class="purchase-row"><button class="primary add-btn" id="addBtn">ADD TO BAG</button><button class="wish-btn" aria-label="Add to wishlist">♡</button></div><p class="fulfillment" id="fulfillment"></p><section class="reviews-area" aria-labelledby="reviewsTitle"><div class="reviews-head"><div><p class="eyebrow">CUSTOMER REVIEWS</p><h3 id="reviewsTitle">WHAT PEOPLE SAY</h3></div><strong id="reviewScore">NEW</strong></div><div id="reviewList" class="review-list"><p class="review-empty">Loading reviews…</p></div><form id="reviewForm" class="review-form"><h4>WRITE OR UPDATE YOUR REVIEW</h4><label>Your rating<select name="rating" required><option value="">Choose stars</option><option value="5">★★★★★ — Excellent</option><option value="4">★★★★☆ — Good</option><option value="3">★★★☆☆ — Okay</option><option value="2">★★☆☆☆ — Disappointing</option><option value="1">★☆☆☆☆ — Poor</option></select></label><label>Short title<input name="title" maxlength="100" placeholder="What stood out?"></label><label>Your review<textarea name="body" rows="4" minlength="10" maxlength="1000" required placeholder="Share at least 10 characters about the fit, quality or experience."></textarea></label><button class="primary review-submit" type="submit">POST REVIEW</button><p class="review-note" id="reviewNote">An account is required to post. Your display name will appear with your review.</p></form></section></div></div>
+
+  <div class="modal checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><button class="modal-close" aria-label="Close checkout">×</button><div class="checkout-form"><p class="eyebrow">SECURE ACCOUNT CHECKOUT</p><h2 id="checkoutTitle">COMPLETE YOUR ORDER</h2><p class="checkout-account-note">This order will be saved to My Account so you can check its status anytime.</p><form id="orderForm"><div class="form-grid"><label>Full name<input required name="name" autocomplete="name" /></label><label>Mobile number<input required name="phone" type="tel" autocomplete="tel" /></label></div><label>Email address<input required name="email" type="email" autocomplete="email" /></label><label>Delivery address<textarea required name="address" rows="3"></textarea></label><div class="form-grid"><label>City / Municipality<input required name="city" /></label><label>Postal code<input required name="postal" inputmode="numeric" /></label></div><fieldset><legend>PAYMENT METHOD</legend><label class="payment"><input type="radio" name="payment" value="Cash on Delivery" checked /> Cash on Delivery</label><label class="payment"><input type="radio" name="payment" value="GCash" /> GCash</label></fieldset><p style="font-size:14px;line-height:1.5">GCash payments are arranged manually with the store. No payment is collected on this page.</p><button class="primary submit-order" type="submit">PLACE ORDER — <span id="orderTotal">₱0</span></button></form></div><div class="checkout-summary"><h3>ORDER SUMMARY</h3><p id="shippingCost"></p><div id="checkoutItems"></div></div></div>
+
+  <div class="success" id="success"><div class="success-mark">✓</div><p class="eyebrow">ORDER CONFIRMED</p><h2>THANK YOU.</h2><p>Your order <strong id="orderNumber"></strong> has been received. The store admin will review your order and delivery details.</p><div class="success-actions"><a class="primary" href="/account">VIEW MY ORDERS</a><button class="secondary" id="continueBtn">CONTINUE SHOPPING</button></div></div>
+  <div class="toast" id="toast">ADDED TO YOUR BAG</div>
+  <script src="/storefront.js"></script><script src="/app.js"></script><script src="/local-enhancements.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "medicinal-lifestyle-vscode",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node local/server.mjs",
+    "start": "node local/server.mjs",
+    "build": "node build.mjs",
+    "seed": "node local/seed.mjs",
+    "test": "node local/check.mjs",
+    "test:store": "node tests/dynamic-store.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.4",
+    "drizzle-orm": "0.44.5"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

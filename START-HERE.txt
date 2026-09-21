@@ -1,0 +1,18 @@
+MEDICINAL LIFESTYLE — FULL LOCAL WEBSITE
+
+1. Install Node.js 24 LTS.
+2. Extract this ZIP completely.
+3. Open medicinal-lifestyle-vscode in VS Code.
+4. Open a Command Prompt terminal in VS Code.
+5. Run:
+
+   npm install
+   npm run dev
+
+6. Open http://localhost:3000
+7. Open http://localhost:3000/admin and create your local admin account.
+8. Enter sample stock quantities in Admin > Inventory to test purchases.
+
+Everything saves locally. Read README.md for details.
+This is the original site design and images with a local Node.js/SQLite server.
+It does not require XAMPP, ChatGPT sign-in, MongoDB or Cloudinary to start.

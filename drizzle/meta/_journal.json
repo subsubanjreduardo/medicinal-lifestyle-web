@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789715479418,
+      "tag": "0000_parallel_mister_fear",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789716247190,
+      "tag": "0001_green_unicorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789761456560,
+      "tag": "0002_cloudy_kid_colt",
+      "breakpoints": true
+    }
+  ]
+}

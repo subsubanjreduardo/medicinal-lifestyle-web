@@ -1,0 +1,511 @@
+{
+  "products": [
+    {
+      "id": "black-hoodie",
+      "name": "Core Logo Hoodie — Black",
+      "description": "Heavyweight brushed fleece hoodie with a relaxed oversized silhouette, kangaroo pocket and signature chest logo.",
+      "category": "hoodies",
+      "collection": "Core",
+      "sku": "BLACK-HOODIE",
+      "regularPrice": 1699,
+      "salePrice": null,
+      "compareAtPrice": null,
+      "lowStockThreshold": 10,
+      "releaseDate": "",
+      "status": "published",
+      "availability": "In Stock",
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "preorder": false,
+      "seoTitle": "Core Logo Hoodie — Black",
+      "seoDescription": "Heavyweight brushed fleece hoodie with a relaxed oversized silhouette, kangaroo pocket and signature chest logo.",
+      "tags": [],
+      "images": [
+        {
+          "url": "/assets/813467454_122111863479453901_9205533144431282496_n.jpg",
+          "publicId": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": "923d41c7-8f51-4ac3-8889-f5b27ca89ff6",
+          "color": "Black",
+          "size": "S",
+          "price": null,
+          "stock": 0,
+          "effectivePrice": 1699,
+          "purchasable": false
+        },
+        {
+          "id": "7fe6d6fe-8418-46e5-8f94-d5d4518ea5aa",
+          "color": "Black",
+          "size": "M",
+          "price": null,
+          "stock": 0,
+          "effectivePrice": 1699,
+          "purchasable": false
+        },
+        {
+          "id": "7bebc4c2-75b2-42a4-89ed-20067f2862ca",
+          "color": "Black",
+          "size": "L",
+          "price": null,
+          "stock": 0,
+          "effectivePrice": 1699,
+          "purchasable": false
+        },
+        {
+          "id": "0fd5b262-225d-48e9-8542-cec4755e17d9",
+          "color": "Black",
+          "size": "XL",
+          "price": null,
+          "stock": 0,
+          "effectivePrice": 1699,
+          "purchasable": false
+        }
+      ],
+      "price": 1699,
+      "desc": "Heavyweight brushed fleece hoodie with a relaxed oversized silhouette, kangaroo pocket and signature chest logo.",
+      "image": "/assets/813467454_122111863479453901_9205533144431282496_n.jpg",
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "type": "ORDER",
+      "badge": "BESTSELLER",
+      "purchasable": false
+    },
+    {
+      "id": "white-hoodie",
+      "name": "Core Logo Hoodie — White",
+      "price": 1699,
+      "category": "hoodies",
+      "badge": "",
+      "image": "/assets/814507619_122111805783453901_6395947149336779668_n.jpg",
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "desc": "Clean white heavyweight hoodie with a structured hood, ribbed finish and relaxed unisex fit.",
+      "type": "PRE-ORDER",
+      "description": "Clean white heavyweight hoodie with a structured hood, ribbed finish and relaxed unisex fit.",
+      "regularPrice": 1699,
+      "salePrice": null,
+      "compareAtPrice": null,
+      "images": [
+        {
+          "url": "/assets/814507619_122111805783453901_6395947149336779668_n.jpg",
+          "publicId": ""
+        }
+      ],
+      "collection": "Core",
+      "sku": "WHITE-HOODIE",
+      "status": "published",
+      "availability": "Pre-order",
+      "preorder": true,
+      "releaseDate": "",
+      "lowStockThreshold": 5,
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "tags": [],
+      "seoTitle": "Core Logo Hoodie — White",
+      "seoDescription": "Clean white heavyweight hoodie with a structured hood, ribbed finish and relaxed unisex fit.",
+      "variants": [
+        {
+          "id": "d8f8ef5a-b312-455f-bc9e-79af35e10550",
+          "color": "White",
+          "size": "S",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 1699,
+          "purchasable": true
+        },
+        {
+          "id": "28726063-be7f-4998-9b8a-ceaca17efc34",
+          "color": "White",
+          "size": "M",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 1699,
+          "purchasable": true
+        },
+        {
+          "id": "3f5e8336-403a-4cbb-a9e6-3adfe0a12bdd",
+          "color": "White",
+          "size": "L",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 1699,
+          "purchasable": true
+        },
+        {
+          "id": "7ebc59cd-d18d-40bd-8b55-51117cd1b794",
+          "color": "White",
+          "size": "XL",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 1699,
+          "purchasable": true
+        }
+      ],
+      "purchasable": true
+    },
+    {
+      "id": "signature-tee",
+      "name": "Signature Back Print Tee",
+      "price": 899,
+      "category": "tees",
+      "badge": "NEW",
+      "image": "/assets/813583096_122111859471453901_4172575825523174736_n.jpg",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "desc": "Premium cotton streetwear tee with a small front logo and bold Medicinal Lifestyle back print.",
+      "type": "ORDER",
+      "description": "Premium cotton streetwear tee with a small front logo and bold Medicinal Lifestyle back print.",
+      "regularPrice": 899,
+      "salePrice": null,
+      "compareAtPrice": null,
+      "images": [
+        {
+          "url": "/assets/813583096_122111859471453901_4172575825523174736_n.jpg",
+          "publicId": ""
+        }
+      ],
+      "collection": "Core",
+      "sku": "SIGNATURE-TEE",
+      "status": "published",
+      "availability": "In Stock",
+      "preorder": false,
+      "releaseDate": "",
+      "lowStockThreshold": 5,
+      "featured": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "tags": [],
+      "seoTitle": "Signature Back Print Tee",
+      "seoDescription": "Premium cotton streetwear tee with a small front logo and bold Medicinal Lifestyle back print.",
+      "variants": [
+        {
+          "id": "a57a56f5-9ce8-4572-b371-dbdf62b4f831",
+          "color": "Black",
+          "size": "S",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "401e12d6-5dd3-45ef-bed4-f8bc910b2c83",
+          "color": "Black",
+          "size": "M",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "6dc01de8-ff08-41b8-918b-bcc9c5c773db",
+          "color": "Black",
+          "size": "L",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "ea2a0193-d367-44a2-98f6-72ecda41880e",
+          "color": "Black",
+          "size": "XL",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "8ce89883-02f2-4429-8402-98ecd378ac2d",
+          "color": "White",
+          "size": "S",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "1a167387-39a6-466a-a38e-dffa5c151aa6",
+          "color": "White",
+          "size": "M",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "a9a6d8d8-78af-41f7-ab52-c752b4ec4ad3",
+          "color": "White",
+          "size": "L",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        },
+        {
+          "id": "3d9d5bf2-f659-4322-98e3-51e319729f2e",
+          "color": "White",
+          "size": "XL",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 899,
+          "purchasable": false
+        }
+      ],
+      "purchasable": false
+    },
+    {
+      "id": "white-tee",
+      "name": "Core Logo Tee — White",
+      "price": 799,
+      "category": "tees",
+      "badge": "",
+      "image": "/assets/813546525_122111864307453901_6626734464249187009_n.jpg",
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "desc": "Clean cotton tee with a relaxed fit, ribbed crew neck and signature front and back branding.",
+      "type": "ORDER",
+      "description": "Clean cotton tee with a relaxed fit, ribbed crew neck and signature front and back branding.",
+      "regularPrice": 799,
+      "salePrice": null,
+      "compareAtPrice": null,
+      "images": [
+        {
+          "url": "/assets/813546525_122111864307453901_6626734464249187009_n.jpg",
+          "publicId": ""
+        }
+      ],
+      "collection": "Core",
+      "sku": "WHITE-TEE",
+      "status": "published",
+      "availability": "In Stock",
+      "preorder": false,
+      "releaseDate": "",
+      "lowStockThreshold": 5,
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "tags": [],
+      "seoTitle": "Core Logo Tee — White",
+      "seoDescription": "Clean cotton tee with a relaxed fit, ribbed crew neck and signature front and back branding.",
+      "variants": [
+        {
+          "id": "c79926b4-4c75-408d-9de1-c77a7741f45d",
+          "color": "White",
+          "size": "S",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "4d4c0145-f874-4feb-9b83-84f370168f93",
+          "color": "White",
+          "size": "M",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "8ef6e3b5-9ea3-4b41-8b52-13a148a8a179",
+          "color": "White",
+          "size": "L",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "53aeadbd-17db-4e98-ab18-a5d1016a7372",
+          "color": "White",
+          "size": "XL",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        }
+      ],
+      "purchasable": false
+    },
+    {
+      "id": "black-tee",
+      "name": "Core Logo Tee — Black",
+      "price": 799,
+      "category": "tees",
+      "badge": "",
+      "image": "/assets/813386481_122111805843453901_3578364694834511613_n.jpg",
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "desc": "Black everyday tee cut in a relaxed streetwear fit with high-contrast Medicinal Lifestyle graphics.",
+      "type": "ORDER",
+      "description": "Black everyday tee cut in a relaxed streetwear fit with high-contrast Medicinal Lifestyle graphics.",
+      "regularPrice": 799,
+      "salePrice": null,
+      "compareAtPrice": null,
+      "images": [
+        {
+          "url": "/assets/813386481_122111805843453901_3578364694834511613_n.jpg",
+          "publicId": ""
+        }
+      ],
+      "collection": "Core",
+      "sku": "BLACK-TEE",
+      "status": "published",
+      "availability": "In Stock",
+      "preorder": false,
+      "releaseDate": "",
+      "lowStockThreshold": 5,
+      "featured": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "tags": [],
+      "seoTitle": "Core Logo Tee — Black",
+      "seoDescription": "Black everyday tee cut in a relaxed streetwear fit with high-contrast Medicinal Lifestyle graphics.",
+      "variants": [
+        {
+          "id": "2a1315d5-3332-4faa-967f-6af29f6fad21",
+          "color": "Black",
+          "size": "S",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "6d739158-f2f8-4287-b59f-67983173462e",
+          "color": "Black",
+          "size": "M",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "0e05cd11-dbfa-4ffb-8c27-6fde8479243b",
+          "color": "Black",
+          "size": "L",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        },
+        {
+          "id": "aeddbd22-4e18-417d-9fe4-e7bff6f8b374",
+          "color": "Black",
+          "size": "XL",
+          "stock": 0,
+          "price": null,
+          "effectivePrice": 799,
+          "purchasable": false
+        }
+      ],
+      "purchasable": false
+    }
+  ],
+  "settings": {
+    "storeName": "Medicinal Lifestyle",
+    "logo": "",
+    "favicon": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "address": "",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "tiktok": ""
+    },
+    "currency": "PHP",
+    "shippingFee": 0,
+    "freeShippingThreshold": 2000,
+    "payments": [
+      "Cash on Delivery",
+      "GCash"
+    ],
+    "preordersEnabled": true,
+    "announcement": {
+      "text": "FREE LOCAL SHIPPING ON ORDERS ₱2,000+",
+      "link": "#shop",
+      "active": true,
+      "start": "",
+      "end": ""
+    },
+    "hero": {
+      "image": "",
+      "mobileImage": "",
+      "heading": "BUILT FOR THE DAILY GRIND.",
+      "description": "DROP 001 — NOW LIVE",
+      "cta": "SHOP THE DROP",
+      "url": "#shop",
+      "active": true
+    },
+    "banners": [],
+    "sections": [
+      {
+        "type": "featured",
+        "title": "Featured Products",
+        "active": true
+      },
+      {
+        "type": "newArrival",
+        "title": "New Arrivals",
+        "active": true
+      },
+      {
+        "type": "bestSeller",
+        "title": "Best Sellers",
+        "active": true
+      },
+      {
+        "type": "collection",
+        "title": "Featured Collection",
+        "active": false
+      }
+    ],
+    "featuredCollection": "",
+    "shopTitle": "THE NEW DROP",
+    "aboutHeading": "WEAR YOUR MINDSET.",
+    "about": "Medicinal Lifestyle is a uniform for showing up—designed in the Philippines for people building something of their own.",
+    "footer": "© 2026 MEDICINAL LIFESTYLE. ALL RIGHTS RESERVED."
+  }
+}
